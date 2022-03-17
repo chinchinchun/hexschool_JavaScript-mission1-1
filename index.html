@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO LIST</title>
+
+    <link rel="icon" href="https://www.hexschool.com/favicon.ico" />
+    
+    <meta name="description" content="JavaScript必修篇 - TODO LIST" />
+    <meta name="keywords" content="HexSchool, HTML, CSS, RWD, TODO LIST"/>
+    <meta name="author" content="chin"/>
+    <meta name="copyright" content="版權歸屬"/>
+    
+    <meta property="og:title" content="TODO LIST"/>
+    <meta property="og:description" content="練習用的TODO LIST"/>
+    <meta property="og:url" content="網址"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="圖片.png" />
+    <meta property="og:image:type" content="png" />
+    <meta property="og:image:width" content="150" />
+    <meta property="og:image:height" content="70" />
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>TODO LIST</h1>
+        <div class="card input">
+            <input type="text" placeholder="請輸入待辦事項" />
+            <a href="#" class="btn_add">+</a>
+        </div>
+        <div class="card card_list">
+            <ul class="tab">
+                <li class="active">全部</li>
+                <li>待完成</li>
+                <li>已完成</li>
+            </ul>
+            <div class="cart_content">
+                <ul class="list">
+                    <li><label class="checkbox" for=""><input type="checkbox"/><span contentEditable="false" data-num="0"></span></label><a href="#" class="delete" data-num="0"></a></li>
+                </ul>
+                <div class="list_footer">
+                    <p></p>
+                    <a href="#">清除已完成項目</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/all.js"></script>
+</body>
+
+</html>
