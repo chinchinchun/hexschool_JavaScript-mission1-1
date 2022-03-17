@@ -9,10 +9,10 @@ let count = document.querySelector('.list_footer p'); // p - 顯示list的項目
 
 //預設list內部data 【check表示是否點擊 - true 代表已完成】
 let data = [{
-    content: 'try',
+    content: '吃早餐',
     check: false
 }, {
-    content: 'try1',
+    content: '寫作業',
     check: false
 }];
 
